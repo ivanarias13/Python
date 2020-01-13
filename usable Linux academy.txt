@@ -1,0 +1,6 @@
+[root@ivanarias132c ~]# curl https://raw.githubusercontent.com/linuxacademy/content-intro-to-python-development/master/helpers/bashrc -o ~/.bashrc
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1667  100  1667    0     0   4967      0 --:--:-- --:--:-- --:--:--  4976
+[root@ivanarias132c ~]# curl https://raw.githubusercontent.com/linuxacademy/content-intro-to-python-development/master/helpers/bashrc -o ~/.vimrc
+git init
