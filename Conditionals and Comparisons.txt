@@ -1,0 +1,154 @@
+>>> if True: 
+...     print ("was true")
+... 
+was true
+>>> if 1>2 true: 
+  File "<stdin>", line 1
+    if 1>2 true:
+              ^
+SyntaxError: invalid syntax
+>>> if 1>2 true:
+  File "<stdin>", line 1
+    if 1>2 true:
+              ^
+SyntaxError: invalid syntax
+>>> if 1>2:      
+...     print ("was true")
+... 
+>>> if True:
+...     print ("was true")
+... else:
+...     print ("was false")
+... 
+was true
+>>>
+>>> 
+>>> if 1>2:
+...     print ("was true")
+... else:
+...     print ("was false") 
+... 
+was false
+>>>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> name = 'Ivan'
+>>> if len(name) >= 6:
+...     print("name is long")
+... elif
+  File "<stdin>", line 3
+    elif
+       ^
+SyntaxError: invalid syntax
+>>> name = 'Ivan'             
+>>>     print ("was false")
+  File "<stdin>", line 1
+    print ("was false")
+    ^
+IndentationError: unexpected indent
+>>> else:
+  File "<stdin>", line 1
+    else:
+       ^
+SyntaxError: invalid syntax
+>>>
+>>> 
+>>> 
+>>> 
+>>> name
+'Ivan'
+>>>  if len(name) >= 6:
+  File "<stdin>", line 1
+    if len(name) >= 6:
+    ^
+IndentationError: unexpected indent
+>>>
+>>> 
+>>>  if len(name) >= 6:
+  File "<stdin>", line 1
+    if len(name) >= 6:
+    ^
+IndentationError: unexpected indent
+>>>
+>>>      if len(name) >= 6: 
+  File "<stdin>", line 1
+    if len(name) >= 6:
+    ^
+IndentationError: unexpected indent
+>>>      if len(name) >= 6: 
+  File "<stdin>", line 1
+    if len(name) >= 6:
+    ^
+IndentationError: unexpected indent
+>>>      if len(name) >= 6: 
+  File "<stdin>", line 1
+    if len(name) >= 6:
+    ^
+IndentationError: unexpected indent
+>>>  if len(name) >= 6:
+  File "<stdin>", line 1
+    if len(name) >= 6:
+    ^
+IndentationError: unexpected indent
+>>>
+>>> 
+>>> 
+>>> 
+>>> 
+>>>  if len(name) >= 6: 
+  File "<stdin>", line 1
+    if len(name) >= 6:
+    ^
+IndentationError: unexpected indent
+>>>
+>>> 
+>>> if
+  File "<stdin>", line 1
+    if
+     ^
+SyntaxError: invalid syntax
+>>> If 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'If' is not defined
+>>>  if len(name) >= 6:
+  File "<stdin>", line 1
+    if len(name) >= 6:
+    ^
+IndentationError: unexpected indent
+>>> if len() >=:
+    if len() >=:
+               ^
+SyntaxError: invalid syntax
+>>> if len() >= 6:
+...
+  File "<stdin>", line 2
+
+    ^
+IndentationError: expected an indented block
+>>>
+>>> if len(name) >= 6:
+...     print("name is long")
+... elif len(name) == 4:
+...     print("name is 4 chars")
+... else
+  File "<stdin>", line 5
+    else
+       ^
+SyntaxError: invalid syntax
+>>>    print("salida")
+  File "<stdin>", line 1
+    print("salida")
+    ^
+IndentationError: unexpected indent
+>>>
+>>> if len(name) >= 6:
+...    print("salida")
+...
+>>>
+>>> exit()
