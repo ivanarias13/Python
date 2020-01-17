@@ -1,0 +1,10 @@
+>>> for name, age in ages.items():
+...     print(f"Person Named: {name}")
+...     print(f"Age of: {age}")
+...
+Person Named: kevin
+Age of: 59
+Person Named: bob
+Age of: 40
+Person Named: kayla
+Age of: 21
