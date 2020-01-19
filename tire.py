@@ -1,3 +1,4 @@
+import math
 class Tire:
     """
     Tire represents a tire that would be used with an automobile
@@ -9,6 +10,16 @@ class Tire:
         self.diameter = diameter
         self.brand = brand
         self.construction = construction
+    def circumference(self):
+        """
+        the circumference of a tire in inches
+        >>> tire = Tire('P', 205, 65, 15)
+        >>> tire.circumference() 
+        80.1
+        """
+        side_wall_inches = (self.width * (self.ratio/100)) / 25.4
+        total_diameter = side_wall_inches * 2 + self.diameter
+        return round(total_diameter * math.pi, 1)
     def __repr__(self):
         """
         Represents the tire's information in the standard notation present on the side of the tire
