@@ -21,3 +21,15 @@ NameError: name 'num1' is not defined
 
 
 
+>>> def contact_card(name, age, car_model):
+...     return f"{name} is {age} and drives a {car_model}"
+...
+>>> contact_card("Keith", 29, "Honda Civic")
+'Keith is 29 and drives a Honda Civic'
+>>> contact_card(age=29, car_model="Civic", name="Keith")
+'Keith is 29 and drives a Civic'
+>>> contact_card("Keith", car_model="Civic", age="29")
+'Keith is 29 and drives a Civic'
+>>> contact_card(age="29", "Keith", car_model="Civic")
+  File "<stdin>", line 1
+SyntaxError: positional argument follows keyword argument
