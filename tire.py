@@ -41,7 +41,7 @@ class SnowTire(Tire):
         >>> tire.circumference()
         92.7
         """
-        side_wall_inches = self._side_wall_inches()
+        side_wall_inches = self.side_wall_inches()
         total_diameter = (side_wall_inches + self.chain_thickness) * 2 + self.diameter
         return round(total_diameter * math.pi, 1)
 
